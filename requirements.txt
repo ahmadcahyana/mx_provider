@@ -1,0 +1,7 @@
+wheel
+setuptools
+twine
+tld==0.13
+dnspython==2.6.1
+pytest==8.3.3
+pytest-runner==6.0.1

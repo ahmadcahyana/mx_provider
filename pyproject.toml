@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel", "twine"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mx_provider"
+version = "0.0.1"
+dependencies = [
+    "tld==0.13",
+    "dnspython==2.6.1",
+    "pytest==8.3.3",
+    "pytest-runner==6.0.1",
+    'importlib-metadata; python_version<"3.10"',
+]
